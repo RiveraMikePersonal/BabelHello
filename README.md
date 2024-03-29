@@ -4,3 +4,5 @@ To use all you need to do is put an api key into the settings.py file.  They are
 Then you can luanch the server and go to http://127.0.0.0:8000/hello
 Type in your language and your sentence.
 The request will flow through to openai and the page will return openai's response.  I can't vouch for openai's ability to translate languages.
+
+There is no public licensing for this project and it is not actively being maintained.
