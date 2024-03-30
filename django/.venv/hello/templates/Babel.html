@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <h1>Babel fish translator</h1>
+        <form method="post" action="translate" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input id="input" name="input" type="text">
+            <label for="input">What would you like to translate?</label><br>
+            <input id="language" name="language" type="text">
+            <label for="language">What language is it?</label>
+            <br>
+            <button type="submit" class="btn">Translate</button>
+        </form>
+    </body>
+</html>
